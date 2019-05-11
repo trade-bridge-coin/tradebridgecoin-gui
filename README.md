@@ -46,8 +46,11 @@ ___PLEASE BE FREE TO TRY TBC WITH PAPER TRADING IN THE GUI___
 
 ### How to start
 - GUI desktop
-> - install executables
-> - install from sources
+> - install executables at the Release section, pick the right one for your OS
+>> https://github.com/trade-bridge-coin/tradebridgecoin-gui/releases
+> - install from sources by cloing the github or downloading the zip
+>> https://codeload.github.com/trade-bridge-coin/tradebridgecoin-gui/zip/master
+
 > - start
 >>run the GUI from the OS, either by double-clicking the icon or form the command-line with an fully accessible Ethereum account ready. When started out, input 
 ### Roadmap
