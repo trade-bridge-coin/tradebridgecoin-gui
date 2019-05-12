@@ -334,6 +334,14 @@ let categoryUpdate = () => {
     }
 };
 
+document.addEventListener("keydown", event => {
+    switch (event.key) {
+        case "Escape":
+            remote.getCurrentWindow().close();
+            break;
+    }
+});
+
 body.onload = onBodyLoad;
 next_btn.onclick = onNextButtonClick;
 symbol_quote.onclick = onQuote;

@@ -299,7 +299,7 @@ let depositWindow = () => {
         depositWin.show()
     });
     depositWin.on('close', () => refreshPortfolio(td));
-    depositWin.webContents.openDevTools();
+    // depositWin.webContents.openDevTools();
 };
 
 let withdrawWindow = () => {

@@ -6,7 +6,7 @@ const log = require('electron-log');
 
 log.transports.file.level = 'info';
 log.transports.file.maxSize = 5 * 1024 * 1024;
-log.transports.file.file = `${process.env.HOME}/tbc_gui.log`;
+log.transports.file.file = `${process.env.HOME || process.env.HOMEPATH}/tbc_gui.log`;
 
 Array.prototype.flatten = function() {
     let flat = [];

@@ -87,6 +87,14 @@ ipc.on('error-in-updating-settings', (event, msg) => {
     document.getElementById('settings_msg').innerHTML = msg;
 });
 
+document.addEventListener("keydown", event => {
+    switch (event.key) {
+        case "Escape":
+            remote.getCurrentWindow().close();
+            break;
+    }
+});
+
 body.onload = onBodyLoad;
 cancel_btn.onclick = cancel;
 ok_btn.onclick = ok;

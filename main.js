@@ -9,6 +9,51 @@ log.info('starting gui -----------------------------------------------');
 let win;
 let net;
 
+if (process.platform === 'darwin') {
+    const { Menu } = require('electron');
+    let template = [{
+        label: 'FromScratch',
+        submenu: [{
+            label: 'Quit',
+            accelerator: 'CmdOrCtrl+Q',
+            click: function() {
+                app.quit();
+            }
+        }]
+    }, {
+        label: 'Edit',
+        submenu: [{
+            label: 'Undo',
+            accelerator: 'CmdOrCtrl+Z',
+            selector: 'undo:'
+        }, {
+            label: 'Redo',
+            accelerator: 'Shift+CmdOrCtrl+Z',
+            selector: 'redo:'
+        }, {
+            type: 'separator'
+        }, {
+            label: 'Cut',
+            accelerator: 'CmdOrCtrl+X',
+            selector: 'cut:'
+        }, {
+            label: 'Copy',
+            accelerator: 'CmdOrCtrl+C',
+            selector: 'copy:'
+        }, {
+            label: 'Paste',
+            accelerator: 'CmdOrCtrl+V',
+            selector: 'paste:'
+        }, {
+            label: 'Select All',
+            accelerator: 'CmdOrCtrl+A',
+            selector: 'selectAll:'
+        }]
+    }];
+    let osxMenu = Menu.buildFromTemplate(template);
+    Menu.setApplicationMenu(osxMenu);
+}
+
 function createWindow () {
     win = new BrowserWindow({width: 1200, height: 600});
     win.loadURL(`file://${__dirname}/index.html`);

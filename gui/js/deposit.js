@@ -161,5 +161,13 @@ let onNextButtonClick = async () => {
     }
 };
 
+document.addEventListener("keydown", event => {
+    switch (event.key) {
+        case "Escape":
+            remote.getCurrentWindow().close();
+            break;
+    }
+});
+
 body.onload = onBodyLoad;
 next_btn.onclick = onNextButtonClick;
