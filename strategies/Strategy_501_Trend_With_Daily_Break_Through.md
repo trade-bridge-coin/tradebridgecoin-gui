@@ -15,7 +15,7 @@ A daily break-through strategy with some adaptive tactics on a stock index to ge
 
     Figure: Net Asset & Draw-down
 
-![](/home/lecoffeeprince/workspace_scala/StrategyDailyUpdate/marketing//imgs/Strategy_501_Trend_With_Daily_Break_Through.png)
+![](./imgs/Strategy_501_Trend_With_Daily_Break_Through.png)
 
 Updated On: 2019-05-22
     
