@@ -15,7 +15,7 @@ A strategy that uses a bunch of commodities in the same ultra-low-frequency stra
 
     Figure: Net Asset & Draw-down
 
-![](/home/lecoffeeprince/workspace_scala/StrategyDailyUpdate/marketing//imgs/Strategy_601_Multiple_Commodities_Low-Frequency_Strategy.png)
+![](./imgs/Strategy_601_Multiple_Commodities_Low-Frequency_Strategy.png)
 
 Updated On: 2019-05-22
     
