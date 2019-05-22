@@ -3,8 +3,7 @@
 
     Performance: annual: 41.57%, ttm: 30.60%, ytd: 26.92%
 
-  
-A daily break-through strategy with some adaptive tactics on a stock index to generate an unbelievable annualized rate of return, and even more magnificent against its risk factor.
+A semi-daily strategy that enhanced the underlying index by providing with an entry tactic to ride the trend, both long and short, with an acceptable relatively low trial-and-error cost.
     
 
     Table: Features
