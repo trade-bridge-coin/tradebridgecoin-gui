@@ -15,7 +15,7 @@ A stock strategy that dynamically and periodically  picks the most outperforming
 
     Figure: Net Asset & Draw-down
 
-![](/home/lecoffeeprince/workspace_scala/StrategyDailyUpdate/marketing//imgs/Strategy_201_Stock_Index_Portfolio.png)
+![](./imgs/Strategy_201_Stock_Index_Portfolio.png)
 
 Updated On: 2019-05-22
     
