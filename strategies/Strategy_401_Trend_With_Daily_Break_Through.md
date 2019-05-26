@@ -15,7 +15,7 @@ A semi-daily  strategy that enhanced the underlying index by providing with an e
 
     Figure: Net Asset & Draw-down
 
-![](/home/lecoffeeprince/workspace_scala/StrategyDailyUpdate/marketing//imgs/Strategy_401_Trend_With_Daily_Break_Through.png)
+![](./imgs/Strategy_401_Trend_With_Daily_Break_Through.png)
 
 Updated On: 2019-05-26
     

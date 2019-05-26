@@ -15,7 +15,7 @@ A strategy portfolio cancels out to an amazing extent the drawdowns of the indiv
 
     Figure: Net Asset & Draw-down
 
-![](/home/lecoffeeprince/workspace_scala/StrategyDailyUpdate/marketing//imgs/Strategy_502_Multiple_Strategy_Portfolio.png)
+![](./imgs/Strategy_502_Multiple_Strategy_Portfolio.png)
 
 Updated On: 2019-05-26
     

@@ -15,7 +15,7 @@ A cryptocurrency mid-frequency strategy that defies bear/bull cycle with 7x annu
 
     Figure: Net Asset & Draw-down
 
-![](/home/lecoffeeprince/workspace_scala/StrategyDailyUpdate/marketing//imgs/Strategy_602_CryptoCurrency_strategy.png)
+![](./imgs/Strategy_602_CryptoCurrency_strategy.png)
 
 Updated On: 2019-05-26
     

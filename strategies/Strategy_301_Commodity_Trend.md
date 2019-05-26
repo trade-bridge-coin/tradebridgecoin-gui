@@ -15,7 +15,7 @@ A commodity strategy aiming at timing the trend and maximizing the daily profits
 
     Figure: Net Asset & Draw-down
 
-![](/home/lecoffeeprince/workspace_scala/StrategyDailyUpdate/marketing//imgs/Strategy_301_Commodity_Trend.png)
+![](./imgs/Strategy_301_Commodity_Trend.png)
 
 Updated On: 2019-05-26
     
